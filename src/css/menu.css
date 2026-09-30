@@ -1,0 +1,121 @@
+body {
+    font-family: 'Kulim Park', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to right top, #000000, #0c080a, #140f13, #18151a, #1b1a22, #1e1e26, #21232a, #24272e, #292b30, #2e2e32, #323234, #363636);
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  
+    /* Curseur par défaut */
+    cursor: none; /* Supprime le curseur natif pour le remplacer par une image personnalisée via JS */
+  }
+  
+  .jeu-interface {
+    width: 90%;
+    max-width: 1200px;
+    background: #000;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  
+  .menu-jeu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .selection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .joueur {
+    font-size: 2rem;
+    color: #FFC61D;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(255, 198, 29, 0.8);
+  }
+  
+  .pions {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .pion {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .pion.selected{
+    border-color: #FFC61D;
+    box-shadow: 0 0 10px #FFC61D;
+  }
+
+  .pion:hover {
+    border-color: #FFC61D;
+    box-shadow: 0 0 10px #FFC61D;
+  }
+
+  .start-btn {
+    padding: 10px 20px;
+    background-color: #FFC61D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    margin: 10px;
+  }
+
+  .start-btn:hover {
+      background-color: #a5831d;
+  }
+
+
+  .next-btn {
+    padding: 10px 20px;
+    background-color: #FFC61D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .next-btn:hover {
+      background-color: #a5831d;
+  }
+
+
+  .player-info {
+      margin-bottom: 20px;
+      font-size: 20px;
+      color: #ffffffb0;
+  }
+  
+  /* Animation pour le curseur */
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .logo-jeu {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  

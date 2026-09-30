@@ -1,0 +1,104 @@
+/* Charger après styles.css ou jeu.css sur les deux pages. */
+*, *::before, *::after { box-sizing: border-box; }
+html { min-height: 100%; }
+body {
+    width: 100%; height: auto; min-height: 100vh; min-height: 100svh;
+    overflow-x: clip; overflow-y: auto;
+    padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
+}
+button { min-height: 44px; font: inherit; touch-action: manipulation; }
+button:focus-visible, .pion:focus-visible { outline: 3px solid #2ed7ff; outline-offset: 4px; }
+img { max-width: 100%; }
+/* Menu de sélection */
+.jeu-interface { width: 100%; max-width: 1200px; padding: clamp(16px, 3vw, 40px); margin: auto; }
+.logo-jeu { width: min(350px, 100%); }
+.menu-jeu, .selection { width: 100%; gap: clamp(20px, 4vw, 40px); }
+.player-info { text-align: center; margin: 0; font-size: clamp(16px, 2vw, 20px); }
+.player-info .joueur { font-size: clamp(22px, 4vw, 32px); }
+.pions { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: clamp(8px, 2vw, 24px); width: 100%; }
+.pion { display: block; width: 100%; min-width: 0; aspect-ratio: 1; object-fit: contain; padding: 6px; cursor: pointer; }
+.next-btn, .start-btn { min-width: 160px; max-width: 100%; margin: 0; color: #111; font-size: 18px; }
+/* Plateau SVG : son repère et les positions des pions restent inchangés. */
+.container { width: 100%; max-width: 1800px; height: auto; min-height: calc(100svh - 24px); margin: auto; gap: clamp(12px, 2vw, 28px); align-items: center; }
+.haut-bas { flex: 1 1 0; min-width: 0; width: auto; padding: 8px; gap: 24px; }
+.haut { height: auto; width: 100%; gap: clamp(12px, 4vw, 60px); }
+.carte-joueur { flex: 1 1 0; min-width: 0; max-width: 350px; height: auto; padding: 8px; border: 4px solid transparent !important; transform: none !important; }
+.carte-joueur[style*="255, 198, 29"], .carte-joueur[style*="#FFC61D"] { border-color: #ffc61d !important; }
+.infos-joueur { justify-content: space-between; gap: 8px; min-width: 0; }
+.nom-joueur { padding: 0; font-size: clamp(14px, 1.7vw, 24px); }
+.points-joueur { height: auto; padding: 0; font-size: clamp(18px, 2vw, 28px); }
+.icone-roue { width: clamp(20px, 2.5vw, 35px); height: auto; }
+.bas { width: 100%; height: auto; min-width: 0; }
+.bas svg { display: block; width: 100%; max-width: 1200px; height: auto; }
+.container-gauche { flex: 0 0 clamp(230px, 25vw, 340px); width: auto; padding: 0; gap: 20px; min-width: 0; }
+.gauche { width: 100%; padding: clamp(12px, 2vw, 24px); border-radius: 32px; }
+.scene-jeu { padding: 0; height: auto; gap: 20px; }
+.cube-jeu { width: clamp(100px, 13vw, 180px); height: auto; aspect-ratio: 1; flex-shrink: 0; }
+.face { font-size: clamp(48px, 7vw, 96px); border-radius: 25%; }
+.bouton-lancer1 { width: 100%; max-width: 220px; }
+.bouton-lancer1 button { min-height: 48px; padding: 10px; font-size: clamp(16px, 1.5vw, 21px); }
+.bulle-mascotte { display: block; width: 100%; height: auto; max-height: 300px; object-fit: contain; }
+img[class*="icone-roue-fond"] { pointer-events: none; }
+.haut > img[class*="icone-roue-fond"] { display: none; }
+/* Fenêtre question, réponses et messages */
+.popup { width: min(640px, calc(100% - 24px)); max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); overflow-y: auto; overscroll-behavior: contain; justify-content: flex-start; padding: clamp(16px, 3vw, 28px); gap: 16px; border-radius: 28px; }
+.cont1 { gap: 14px; }
+.cont1 > div:last-child { flex: 1; min-width: 0; }
+.cont1 h1 { margin: 0 0 12px; line-height: 1.35; }
+.face2 { width: 72px; height: 72px; flex-shrink: 0; border-radius: 18px; }
+.cont2, .zone-carte, .reponse { width: 100%; min-width: 0; }
+.question-text { font-size: clamp(18px, 2.5vw, 22px); line-height: 1.35; overflow-wrap: anywhere; }
+.reponse-btn { width: 100%; min-height: 48px; padding: 12px 16px; font-size: 18px; line-height: 1.35; white-space: normal; overflow-wrap: anywhere; }
+.bouton-lancer2 button { height: auto; min-height: 44px; }
+#timer { margin: 0; font-size: clamp(20px, 3vw, 28px); }
+.game-message { width: max-content; max-width: calc(100% - 32px); max-height: calc(100dvh - 32px); overflow: auto; padding: 16px; font-size: 18px; overflow-wrap: anywhere; pointer-events: none; }
+/* Tablette et mobile : scores, plateau puis commandes. */
+@media (max-width: 1000px) {
+    .container { flex-direction: column; justify-content: center; gap: 16px; }
+    .haut-bas { flex: none; width: 100%; gap: 20px; }
+    .container-gauche { flex: none; width: min(100%, 680px); flex-direction: row; align-items: center; }
+    .gauche { flex: 1; min-width: 0; }
+    .scene-jeu { flex-direction: row; }
+    .cube-jeu { width: 88px; }
+    .face { font-size: 48px; }
+    .bulle-mascotte { width: 140px; max-height: 160px; }
+    .pions { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+    .pions { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+    .pion { max-height: 100px; }
+    .haut-bas { padding: 0; gap: 16px; }
+    .haut { gap: 8px; }
+    .carte-joueur { padding: 8px; border-radius: 22px; }
+    .infos-joueur { gap: 4px; }
+    .bulle-mascotte { display: none; }
+    .gauche { padding: 12px; border-radius: 24px; }
+    .cube-jeu { width: 68px; }
+    .face { font-size: 38px; border-width: 3px; }
+    .scene-jeu { gap: 16px; }
+    .bouton-lancer1 { max-width: none; }
+    .cont1 { align-items: center; }
+    .face2 { width: 52px; height: 52px; font-size: 26px; border-width: 3px; border-radius: 14px; }
+}
+@media (pointer: coarse), (hover: none) {
+    #rotating-cursor { display: none !important; }
+    body, button { cursor: auto !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+.carte-joueur { gap: 12px; }
+.carte-joueur .infos-joueur { flex: 1; width: auto; }
+.points-joueur p { margin: 0; }
+.end-game-popup { width: min(600px, calc(100% - 24px)); max-height: calc(100dvh - 24px); overflow-y: auto; justify-content: flex-start !important; padding: 20px !important; border-radius: 28px !important; }
+.end-game-popup h2 { font-size: clamp(26px, 5vw, 48px) !important; margin: 0; }
+.end-game-popup p { font-size: clamp(18px, 3vw, 24px); overflow-wrap: anywhere; }
+.end-game-popup button { font-size: 20px !important; min-height: 48px; }
+
+@media (max-width: 600px) {
+    .container {
+        justify-content: flex-start;
+        margin-top: 0;
+    }
+}
