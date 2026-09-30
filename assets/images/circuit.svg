@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1851.429" height="1096" viewBox="0 0 1851.429 1096">
+  <g id="circuit" transform="translate(1448.714 -15582)">
+    <path id="ombre" d="M1345.186,12.5c-279.133,0-506.241,242.259-506.241,540,0,195.665-149.226,354.857-332.671,354.857s-332.7-159.192-332.7-354.857S322.8,197.643,506.242,197.643c66.22,0,130.155,20.674,184.9,59.8a341.891,341.891,0,0,1,50.76,44.589c32.74,35.054,89.918,35.177,122.719.278,33.912-36.01,34.036-94.732.278-130.927a519.35,519.35,0,0,0-77.112-67.7C704.345,44.036,607.022,12.531,506.242,12.531,227.109,12.5,0,254.759,0,552.5s227.109,540,506.242,540,506.242-242.26,506.242-540c0-195.666,149.225-354.857,332.671-354.857s332.7,159.192,332.7,354.857-149.227,354.857-332.672,354.857c-88.838,0-172.368-36.875-235.193-103.865-32.77-34.961-89.948-34.961-122.75,0a95.185,95.185,0,0,0-25.395,65.447c0,24.748,9.041,48.014,25.426,65.448C1082.87,1036.37,1210,1092.5,1345.186,1092.5c279.134,0,506.243-242.26,506.243-540S1624.32,12.5,1345.186,12.5Z" transform="translate(-1448.714 15585.5)" fill="#ffbe2e"/>
+    <path id="infinity" d="M1345.186,12.5c-279.133,0-506.241,242.259-506.241,540,0,195.665-149.226,354.857-332.671,354.857s-332.7-159.192-332.7-354.857S322.8,197.643,506.242,197.643c66.22,0,130.155,20.674,184.9,59.8a341.891,341.891,0,0,1,50.76,44.589c32.74,35.054,89.918,35.177,122.719.278,33.912-36.01,34.036-94.732.278-130.927a519.35,519.35,0,0,0-77.112-67.7C704.345,44.036,607.022,12.531,506.242,12.531,227.109,12.5,0,254.759,0,552.5s227.109,540,506.242,540,506.242-242.26,506.242-540c0-195.666,149.225-354.857,332.671-354.857s332.7,159.192,332.7,354.857-149.227,354.857-332.672,354.857c-88.838,0-172.368-36.875-235.193-103.865-32.77-34.961-89.948-34.961-122.75,0a95.185,95.185,0,0,0-25.395,65.447c0,24.748,9.041,48.014,25.426,65.448C1082.87,1036.37,1210,1092.5,1345.186,1092.5c279.134,0,506.243-242.26,506.243-540S1624.32,12.5,1345.186,12.5Z" transform="translate(-1448.714 15569.5)"/>
+    <g id="case_moin_5" data-name="case moin 5" transform="translate(-824 585)">
+      <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(-501 15766)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="moin" d="M18.857,18.857H1V33.143H51V18.857H18.857Z" transform="translate(-411 15857)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_plus_5" data-name="case plus 5" transform="translate(-1133 146)">
+      <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(-192 15601)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="plus" d="M33.143,1H18.857V18.857H1V33.143H18.857V51H33.143V33.143H51V18.857H33.143Z" transform="translate(-96 15697)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_plus_6" data-name="case plus 6" transform="translate(-545 771)">
+      <g id="Ellipse_18-2" data-name="Ellipse 18" transform="translate(-192 15601)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="plus-2" data-name="plus" d="M33.143,1H18.857V18.857H1V33.143H18.857V51H33.143V33.143H51V18.857H33.143Z" transform="translate(-96 15697)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_moin_3" data-name="case moin 3" transform="translate(-268 -73)">
+      <g id="Ellipse_16-2" data-name="Ellipse 16" transform="translate(-501 15766)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="moin-2" data-name="moin" d="M18.857,18.857H1V33.143H51V18.857H18.857Z" transform="translate(-411 15857)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_moin_4" data-name="case moin 4" transform="translate(-528 -168)">
+      <g id="Ellipse_16-3" data-name="Ellipse 16" transform="translate(-501 15766)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="moin-3" data-name="moin" d="M18.857,18.857H1V33.143H51V18.857H18.857Z" transform="translate(-411 15857)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_plus_4" data-name="case plus 4" transform="translate(0 897)">
+      <g id="Ellipse_18-3" data-name="Ellipse 18" transform="translate(-192 15601)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="plus-3" data-name="plus" d="M33.143,1H18.857V18.857H1V33.143H18.857V51H33.143V33.143H51V18.857H33.143Z" transform="translate(-96 15697)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_moin_2" data-name="case moin 2" transform="translate(610 606)">
+      <g id="Ellipse_16-4" data-name="Ellipse 16" transform="translate(-501 15766)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="moin-4" data-name="moin" d="M18.857,18.857H1V33.143H51V18.857H18.857Z" transform="translate(-411 15857)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_plus_2" data-name="case plus 2" transform="translate(337 165)">
+      <g id="Ellipse_18-4" data-name="Ellipse 18" transform="translate(-192 15601)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="plus-4" data-name="plus" d="M33.143,1H18.857V18.857H1V33.143H18.857V51H33.143V33.143H51V18.857H33.143Z" transform="translate(-96 15697)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_vide_1" data-name="case vide 1" transform="translate(240 16049)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+      <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+    </g>
+    <g id="case_vide_2" data-name="case vide 2" transform="translate(-449 16391)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+      <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+    </g>
+    <g id="case_vide_4" data-name="case vide 4" transform="translate(-1029 16498)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+      <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+    </g>
+    <g id="case_vide_3" data-name="case vide 3" transform="translate(-1437 16049)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+      <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+    </g>
+    <g id="case_plus_1" data-name="case plus 1">
+      <g id="Ellipse_18-5" data-name="Ellipse 18" transform="translate(-192 15601)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="plus-5" data-name="plus" d="M33.143,1H18.857V18.857H1V33.143H18.857V51H33.143V33.143H51V18.857H33.143Z" transform="translate(-96 15697)" fill="#2ed7ff"/>
+    </g>
+    <g id="case_moin_1" data-name="case moin 1">
+      <g id="Ellipse_16-5" data-name="Ellipse 16" transform="translate(-501 15766)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="moin-5" data-name="moin" d="M18.857,18.857H1V33.143H51V18.857H18.857Z" transform="translate(-411 15857)" fill="#2ed7ff"/>
+    </g>
+    <g id="depart">
+      <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(-596 16049)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="73.5" cy="73.5" r="73.5" stroke="none"/>
+        <circle cx="73.5" cy="73.5" r="73" fill="none"/>
+      </g>
+      <path id="fleche" d="M36.715,44.576,67,14.291,53.295.586,23.01,30.871,9.268,17.13,2,24.4V65.586H43.188l7.268-7.268Z" transform="translate(-436.946 16162.334) rotate(159)" fill="#ffbd2e"/>
+    </g>
+  </g>
+</svg>
